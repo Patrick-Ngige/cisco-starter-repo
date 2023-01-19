@@ -1,0 +1,10 @@
+.MainBanner {
+    margin: 0.5vw;
+    padding: 0vw 2vw 0vw 2vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.75vw;
+    color: #e3eaec;
+    background-color: darkcyan;
+    border-radius: 2vw ;
+}
