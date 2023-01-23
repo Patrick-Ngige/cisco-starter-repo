@@ -4,8 +4,14 @@ import MainBanner from "./components/banners/MainBanner";
 import Wrap from "./components/wrap";
 
 
+
+
+
 class App extends Component {
   render() {
+
+    
+
     return (
       <div className='App'>
           <MainBanner MainBannerText='Sextant' />
@@ -17,13 +23,6 @@ class App extends Component {
   }
 }
 
-// function App() {
-//   return (
-//     <div >
-//       < MainBanner />
-//       < Wrap />
-//     </div>
-//   );
-// }
+
 
 export default App;
