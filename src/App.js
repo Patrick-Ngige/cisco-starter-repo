@@ -3,6 +3,7 @@ import './App.css';
 import MainBanner from "./components/banners/MainBanner";
 import Wrap from "./components/wrap";
 import AddressDisplay from './components/AddressDisplay';
+import PylonConnector from './PylonConnector';
 
 
 class App extends Component {
@@ -16,9 +17,9 @@ class App extends Component {
           <Wrap name="Public IPv6 Address">
             <AddressDisplay url='https://api.ipgeolocation.io/ipgeo?' />
           </Wrap> 
-          <Wrap name="Latency time">
-            <AddressDisplay url="ws://localhost:55455"/>
-          </Wrap>
+          <Wrap name="Pylon Packet Latency">
+                    <PylonConnector />
+                </Wrap>
       
       </div>
     );
