@@ -11,7 +11,7 @@
 
 .wrapHeading {
     font-weight: bold;
-    font-size: 2.vw;
+    font-size: 1.5vw;
 }
 
 .wrapContent {
@@ -19,8 +19,8 @@
     padding: 1vw;
     text-align: center;
     font-weight: bold;
-    font-size: 1.75vw;
-    color: #002933;
+    font-size: 1.25vw;
+    color: #074a1c;
     background-color: #02d2e1;
     border: 0.25vw #005266;
     border-radius: 2vw;

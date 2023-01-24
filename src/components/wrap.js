@@ -11,5 +11,4 @@ class wrap extends Component {
     );
   }
 }
-
 export default wrap;
